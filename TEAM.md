@@ -11,10 +11,10 @@
 
 | STT | Họ tên | MSSV | Email | GitHub | Vai trò |
 | --: | ------ | ---- | ----- | ------ | ------- |
-|   1 |Nguyễn Thanh Tùng| 2A202503957 | thtung13102004@gmail.com | wewewewe07 | Người viết code (CP1, CP2) |
-|   2 |Giang Thái Sơn|      |       |        | Người kiểm số (CP1, CP2) |
-|   3 |Nguyễn Văn Anh Trung|      |       |        | Người gắn nhãn 1 |
-|   4 |Bùi Quý Anh|      |       |        | Người gắn nhãn 2 kiêm giữ hồ sơ |
+|   1 | Nguyễn Thanh Tùng | 2A202603957 | thtung13102004@gmail.com | wewewewe07 | Người viết code (CP1, CP2) |
+|   2 | Giang Thái Sơn | 2A202603964 |       |        | Người kiểm số (CP1, CP2) |
+|   3 | Nguyễn Văn Anh Trung | 2A202603903 |       |        | Người gắn nhãn 1 |
+|   4 | Bùi Quý Anh | 2A202603969 |       |        | Người gắn nhãn 2 kiêm giữ hồ sơ |
 
 Bốn vai của lab:
 
