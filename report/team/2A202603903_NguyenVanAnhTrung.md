@@ -48,4 +48,4 @@
 - Đã hoàn thành: bộ nhãn độc lập 20/20 ca ở CP3; theo dõi điều kiện "Xong khi" của các checkpoint.
 - Chưa hoàn thành tại thời điểm viết: tỉ lệ đồng thuận và quy tắc phân biệt (chờ bộ nhãn 2), bảng khắc phục 5 ca, phần event và rủi ro trong `chi_so.md`.
 - Điều rút ra: gắn nhãn theo nguyên nhân gốc giúp phân biệt "Ngầm" với "Hệ thống": lỗi ngầm là lỗi không ai nhận ra cho tới khi kiểm tra, còn lỗi hệ thống đã lộ ra.
-- Mức độ hoàn thành đề xuất: .
+- Mức độ hoàn thành đề xuất: 7/10, vì một số ngữ cảnh không được đọc kĩ để tìm đúng dấu hiệu để phân loại đúng lỗi.
