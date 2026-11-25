@@ -28,7 +28,6 @@ Dựng hồ sơ launch v0 cho trợ lý hoàn phí LogiX-VN để hội đồng 
 - Pilot: chia theo nhân viên 20 + 20, mde 0,06, 859 yêu cầu/nhóm, DE 6,96. Con số bất lợi: power chỉ **0,64** nếu tác động thật là 5 điểm.
 - Chỉ số trong đợt chạy thử là 82,83% (chính), 27,12% (bỏ qua gợi ý), 4,25% (mở lại 7 ngày).
 - Đề xuất của `ho_so_launch_v0.md`: **Go có điều kiện** cho pilot noi_dia + hang_nang.
-- Kết quả duyệt chéo nhóm nhận được từ hội đồng: ghi tại buổi.
 
 ## 5. Khó khăn và cách xử lý
 

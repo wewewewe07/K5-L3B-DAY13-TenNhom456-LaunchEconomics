@@ -11,7 +11,7 @@
 
 | STT | Họ tên | MSSV | Email | GitHub | Vai trò |
 | --: | ------ | ---- | ----- | ------ | ------- |
-|   1 | Nguyễn Thanh Tùng | 2A202503957 | thtung13102004@gmail.com | [wewewewe07](https://github.com/wewewewe07) | Người viết code (CP1, CP2) |
+|   1 | Nguyễn Thanh Tùng | 2A202603957 | thtung13102004@gmail.com | [wewewewe07](https://github.com/wewewewe07) | Người viết code (CP1, CP2) |
 |   2 | Giang Thái Sơn | 2A202603964 |       |        | Người kiểm số (CP1, CP2) |
 |   3 | Nguyễn Văn Anh Trung | 2A202603903 |       |        | Người gắn nhãn 1 |
 |   4 | Bùi Đình Quý Anh | 2A202603969 |       |        | Người gắn nhãn 2 kiêm giữ hồ sơ |
@@ -37,7 +37,7 @@ Ví dụ: `report/team/20241234_NguyenVanAn.md`.
 
 Sao chép mục dưới đây cho từng thành viên.
 
-## Nguyễn Thanh Tùng - 2A202503957
+## Nguyễn Thanh Tùng - 2A202603957
 
 ### Phần việc phụ trách
 
@@ -55,9 +55,9 @@ Sao chép mục dưới đây cho từng thành viên.
 ### Bằng chứng
 
 - `src/lab13.py`: in "Ba phép thử đáp án biết trước: ĐẠT"; A2 chi phí mỗi việc thành công 4.472 đ (`simulated`); bảng B1 đủ 9 kịch bản; D1 in 1.251 · 3.103 · 1.000 · 300 · 299.
-- Báo cáo cá nhân `report/team/2A202503957_NguyenThanhTung.md`.
+- Báo cáo cá nhân `report/team/2A202603957_NguyenThanhTung.md`.
 
-## Giang Thái Sơn
+## Giang Thái Sơn - 2A202603964
 
 ### Phần việc phụ trách
 
@@ -79,7 +79,7 @@ Sao chép mục dưới đây cho từng thành viên.
 - `report/team/bang_chi_phi.md`: A4 hòa vốn khoảng 4.659 việc thành công/tháng, tính từ chi phí biến đổi 3.072.513 đ/900 việc (`simulated`).
 - `report/team/pilot_plan.yaml`: chú thích D1; `report/team/chi_so.md`: ba giá trị E1; báo cáo cá nhân `report/team/2A202603964_GiangThaiSon.md`.
 
-## Nguyễn Văn Anh Trung
+## Nguyễn Văn Anh Trung - 2A202603903
 
 ### Phần việc phụ trách
 
@@ -104,7 +104,7 @@ Sao chép mục dưới đây cho từng thành viên.
 ### Phần việc phụ trách
 
 - Người gắn nhãn 2 kiêm giữ hồ sơ nhóm (CP3, CP4, CP5).
-- Phụ trách tổng hợp hồ sơ launch v0 (`report/team/ho_so_launch_v0.md`), kế hoạch pilot (`pilot_plan.yaml`) và phiếu chấm duyệt chéo Gate 2a (`phieu_cham.md`).
+- Phụ trách tổng hợp hồ sơ launch v0 (`report/team/ho_so_launch_v0.md`) và kế hoạch pilot (`pilot_plan.yaml`).
 
 ### Đóng góp cụ thể
 
@@ -112,10 +112,9 @@ Sao chép mục dưới đây cho từng thành viên.
 - Hoàn thiện `report/team/pilot_plan.yaml`: chia theo nhân viên 20 + 20, mde 0,06 (859/nhóm, DE 6,96), năm câu D2, đánh đổi power 0,64, ba luật dừng NẾU – TRONG – THÌ – KHÔNG THÌ, rollback 30 phút.
 - Tính tỉ lệ mở lại 7 ngày trước khi đặt ngưỡng an toàn: 4,25% toàn mẫu, 3,97% trong phạm vi noi_dia + hang_nang.
 - Tổng hợp số liệu A–E vào hồ sơ launch v0 một trang, đề xuất Go có điều kiện với bốn điều kiện có người phụ trách và ngày kiểm tra.
-- Soạn phiếu chấm chéo nhóm n + 1 và ba câu hỏi định lượng.
 
 ### Bằng chứng
 
 - `report/team/bang_loi.md`: cột nhãn người 2, tỉ lệ đồng thuận 17/20 = 85%, quy tắc cho ca 3, 8, 17.
 - `report/team/pilot_plan.yaml`: đọc được bằng `yaml.safe_load`, 3 luật dừng, không còn dấu `?`.
-- `report/team/ho_so_launch_v0.md`, `report/team/phieu_cham.md`; báo cáo cá nhân `report/team/2A202603969_BuiDinhQuyAnh.md`.
+- `report/team/ho_so_launch_v0.md`; báo cáo cá nhân `report/team/2A202603969_BuiDinhQuyAnh.md`.
