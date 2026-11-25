@@ -19,7 +19,7 @@ Người gắn nhãn 2: ... (gắn trong 8 phút, không trao đổi)
 | 8 | Lỗi ngữ cảnh | ... | ... | ... |
 | 9 | Do người dùng | ... | ... | ... |
 | 10 | Lỗi ngữ cảnh | ... | ... | ... |
-| 11 | Do người dùng | ... | ... | ... |
+| 11 | Giới hạn hệ thống | ... | ... | ... |
 | 12 | Lỗi ngầm | ... | ... | ... |
 | 13 | Giới hạn hệ thống | ... | ... | ... |
 | 14 | Do người dùng | ... | ... | ... |
