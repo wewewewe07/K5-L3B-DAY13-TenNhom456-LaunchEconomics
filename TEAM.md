@@ -11,10 +11,10 @@
 
 | STT | Họ tên | MSSV | Email | GitHub | Vai trò |
 | --: | ------ | ---- | ----- | ------ | ------- |
-|   1 |        |      |       |        |         |
-|   2 |        |      |       |        |         |
-|   3 |        |      |       |        |         |
-|   4 |        |      |       |        |         |
+|   1 |        |      | thtung13102004@gmail.com | wewewewe07 | Người viết code (CP1, CP2) |
+|   2 |        |      |       |        | Người kiểm số (CP1, CP2) |
+|   3 |        |      |       |        | Người gắn nhãn 1 |
+|   4 |        |      |       |        | Người gắn nhãn 2 kiêm giữ hồ sơ |
 
 Bốn vai của lab:
 
