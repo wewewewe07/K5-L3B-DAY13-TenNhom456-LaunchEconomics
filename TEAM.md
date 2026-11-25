@@ -13,7 +13,7 @@
 | --: | ------ | ---- | ----- | ------ | ------- |
 |   1 | Nguyễn Thanh Tùng | 2A202603957 | thtung13102004@gmail.com | [wewewewe07](https://github.com/wewewewe07) | Người viết code (CP1, CP2) |
 |   2 | Giang Thái Sơn | 2A202603964 |       |[son309](https://github.com/son309)| Người kiểm số (CP1, CP2) |
-|   3 | Nguyễn Văn Anh Trung | 2A202603903 |       |[FPT-Trungocsdiogee)](https://github.com/FPT-Trungocsdiogee)| Người gắn nhãn 1 |
+|   3 | Nguyễn Văn Anh Trung | 2A202603903 |trungkriknak2004.haiduong@gmail.com|[FPT-Trungocsdiogee)](https://github.com/FPT-Trungocsdiogee)| Người gắn nhãn 1 |
 |   4 | Bùi Đình Quý Anh | 2A202603969 |buiquyanh9@gmail.com|[buiquyanh9-ai](https://github.com/buiquyanh9-ai)| Người gắn nhãn 2 kiêm giữ hồ sơ |
 
 Bốn vai của lab:
