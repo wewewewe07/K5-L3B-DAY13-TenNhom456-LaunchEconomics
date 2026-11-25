@@ -70,9 +70,13 @@ Sao chép mục dưới đây cho từng thành viên.
 - Tiếp quản vai viết code sau giờ giải lao: viết hàm tính cỡ mẫu `co_mau()` cho kiểm định hai tỷ lệ độc lập, tính Design Effect ($DE = 1 + (m-1)ICC$) và cỡ mẫu cụm nhân viên cho kế hoạch Pilot (D1).
 - Lập trình tính thử 3 chỉ số vận hành (chính, dùng, an toàn) trên 1.200 yêu cầu mẫu (E1).
 
+**Kết quả đã kiểm trên nhánh `feature/son-cost-review`:** đối chiếu A1–A2 với CSV và kết quả chạy; sửa ngưỡng hòa vốn A4, ghi phép tính D1 vào chú thích kế hoạch pilot và điền ba giá trị E1 vào `report/team/chi_so.md`. Hàm D1 và phần tính E1 đã có trong code trước lượt này; Sơn rà soát kết quả, không nhận là người viết ban đầu.
+
 ### Bằng chứng
 
--
+- `src/lab13.py`: ba phép thử A1 in ĐẠT; A2 có 1.624 lần chạy, 978 việc thành công, tổng chi phí 4.373.585 đ (`simulated`).
+- `report/team/bang_chi_phi.md`: A4 hòa vốn khoảng 4.659 việc thành công/tháng, tính từ chi phí biến đổi 3.072.513 đ/900 việc (`simulated`).
+- `report/team/pilot_plan.yaml`: chú thích D1; `report/team/chi_so.md`: ba giá trị E1; báo cáo cá nhân `report/team/2A202603964_GiangThaiSon.md`.
 
 ## Nguyễn Văn Anh Trung
 

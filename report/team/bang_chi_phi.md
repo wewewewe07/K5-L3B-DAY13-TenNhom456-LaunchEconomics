@@ -45,7 +45,7 @@ Số tính bằng `src/lab13.py`. Mọi con số tính từ cột `_simulated` g
 | 45.000 yêu cầu/tháng | 33.750 | 1.185 đ | 4.599 đ (`simulated`) | 0,38× (`simulated`) |
 | Một nửa khối lượng | 16.875 | 2.370 đ | 5.784 đ (`simulated`) | 0,48× (`simulated`) |
 
-- Chi phí cố định có đổi kết luận không? Ở khối lượng nào? Chi phí cố định 40 triệu đ/tháng không làm đổi kết luận ở quy mô đầy đủ 45.000 yêu cầu/tháng (**4.599 đ = 0,38×** so với 12.000 đ, `simulated`) hay một nửa khối lượng (**5.784 đ = 0,48×**, `simulated`). Tuy nhiên, nếu khối lượng thực tế tụt xuống dưới **5.550 việc thành công/tháng** (chi phí cố định > 7.200 đ/việc), tổng chi phí sẽ vượt ngưỡng 12.000 đ của nhân viên tự làm.
+- Chi phí cố định có đổi kết luận không? Ở khối lượng nào? Chi phí cố định 40 triệu đ/tháng không làm đổi kết luận ở quy mô đầy đủ 45.000 yêu cầu/tháng (**4.599 đ = 0,38×** so với 12.000 đ, `simulated`) hay một nửa khối lượng (**5.784 đ = 0,48×**, `simulated`). Điểm hòa vốn là **4.659 việc thành công/tháng**: 40.000.000 ÷ (12.000 − 3.072.513/900) ≈ 4.659. Dưới mức này, chi phí mỗi việc thành công cộng cố định vượt 12.000 đ (`simulated`).
 
 ## B1 · Đổi từng yếu tố
 
@@ -78,5 +78,5 @@ Số tính bằng `src/lab13.py`. Mọi con số tính từ cột `_simulated` g
 
 ## B4 · Nếu phải xem lại tất cả
 
-- Chi phí mỗi việc thành công khi xem lại 100% (`noi_dia` + `hang_nang`), so với 12.000 đ: Với 948 yêu cầu chạy `ok` (5 phút xem lại/ca), 48 ca `lam_lai` và 224.513 đ token+tool chia cho 900 việc thành công, nếu tính 9 phút làm lại/ca theo đề thì chi phí là **11.743 đ = 0,98× của 12.000 đ** (`simulated`). Nếu dùng mức trung bình thực tế trong dữ liệu `phut_lam_lai_simulated` là **15,3 phút/ca** thì chi phí vọt lên **12.414 đ = 1,03× của 12.000 đ** (`simulated`), đắt hơn nhân viên tự làm.
+- Chi phí mỗi việc thành công khi xem lại 100% (`noi_dia` + `hang_nang`), so với 12.000 đ: Với 948 yêu cầu chạy `ok` (5 phút xem lại/ca), 48 ca `lam_lai` và 224.513 đ token+tool chia cho 900 việc thành công, nếu tính 9 phút làm lại/ca theo đề thì chi phí là **11.743 đ = 0,98× của 12.000 đ** (`simulated`). Nếu dùng trung bình **15,297 phút/ca** từ cột `phut_lam_lai_simulated` thì chi phí là **12.415 đ = 1,03× của 12.000 đ** (`simulated`), đắt hơn nhân viên tự làm.
 - Kết quả này nói gì về thứ pilot cần học được? Xem lại 100% khiến tiền xem lại (9.480.000 đ) chiếm tới **89,7%** tổng chi phí và xóa sạch lợi thế kinh tế của trợ lý (điểm hòa vốn yêu cầu thời gian xem lại ≤ 5,1 phút ở mức 9 phút làm lại, hoặc ≤ 4,8 phút ở mức 15,3 phút làm lại). Do đó, pilot bắt buộc phải đo thời gian xem lại thật và học được lộ trình giảm tỉ lệ xem lại an toàn theo từng bậc khi tỉ lệ sửa + bỏ < 15%.

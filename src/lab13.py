@@ -119,11 +119,13 @@ if __name__ == '__main__':
     pham_vi = reqs[reqs['loai'].isin(['noi_dia', 'hang_nang'])]
     kq_pv = mo_hinh(runs, pham_vi)
     tc_mau = kq_pv['thanh_cong']  # 900 trên tổng 1200 yêu cầu mẫu
+    hoa_von_viec_thang = math.ceil(40_000_000 / (BASELINE - kq_pv['cps']))
     for ten_kl, tong_yc_thang in [('45.000 yêu cầu/tháng', 45000), ('Một nửa (22.500 yc/tháng)', 22500)]:
         tc_thang = int(tong_yc_thang * tc_mau / len(reqs))
         cd_moi_viec = 40_000_000 / tc_thang
         cps_cong_cd = kq_pv['cps'] + cd_moi_viec
         print(f"{ten_kl:26s} | TC/tháng: {tc_thang:6,d} | CĐ/việc: {cd_moi_viec:6,.0f} đ | CPS+CĐ: {cps_cong_cd:6,.0f} đ ({cps_cong_cd / BASELINE:.2f}x)")
+    print(f"Điểm hòa vốn chi phí cố định: {hoa_von_viec_thang:,d} việc thành công/tháng")
 
     # TODO CP2 · Nhiệm vụ B: đổi từng yếu tố, ghi vào bảng độ nhạy.
     print('\n=== B1 · Bảng độ nhạy (đổi từng yếu tố) ===')
