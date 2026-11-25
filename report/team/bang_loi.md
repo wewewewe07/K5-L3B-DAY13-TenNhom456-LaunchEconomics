@@ -4,30 +4,31 @@
 
 ## Hai bộ nhãn độc lập
 
-Người gắn nhãn 1: ... · Người gắn nhãn 2: ... (gắn trong 8 phút, không trao đổi)
+Người gắn nhãn 1: Nguyễn Văn Anh Trung
+Người gắn nhãn 2: ... (gắn trong 8 phút, không trao đổi)
 
 | Ca | Nhãn người 1 | Nhãn người 2 | Trùng? | Nhãn thống nhất |
 | --: | --- | --- | --- | --- |
-| 1 | ... | ... | ... | ... |
-| 2 | ... | ... | ... | ... |
-| 3 | ... | ... | ... | ... |
-| 4 | ... | ... | ... | ... |
-| 5 | ... | ... | ... | ... |
-| 6 | ... | ... | ... | ... |
-| 7 | ... | ... | ... | ... |
-| 8 | ... | ... | ... | ... |
-| 9 | ... | ... | ... | ... |
-| 10 | ... | ... | ... | ... |
-| 11 | ... | ... | ... | ... |
-| 12 | ... | ... | ... | ... |
-| 13 | ... | ... | ... | ... |
-| 14 | ... | ... | ... | ... |
-| 15 | ... | ... | ... | ... |
-| 16 | ... | ... | ... | ... |
-| 17 | ... | ... | ... | ... |
-| 18 | ... | ... | ... | ... |
-| 19 | ... | ... | ... | ... |
-| 20 | ... | ... | ... | ... |
+| 1 | Do người dùng | ... | ... | ... |
+| 2 | Do hệ thống | ... | ... | ... |
+| 3 | Do hệ thống | ... | ... | ... |
+| 4 | Giới hạn hệ thống | ... | ... | ... |
+| 5 | Lỗi ngầm | ... | ... | ... |
+| 6 | Do người dùng | ... | ... | ... |
+| 7 | Do hệ thống | ... | ... | ... |
+| 8 | Lỗi ngữ cảnh | ... | ... | ... |
+| 9 | Do người dùng | ... | ... | ... |
+| 10 | Lỗi ngữ cảnh | ... | ... | ... |
+| 11 | Giới hạn hệ thống | ... | ... | ... |
+| 12 | Lỗi ngầm | ... | ... | ... |
+| 13 | Giới hạn hệ thống | ... | ... | ... |
+| 14 | Do người dùng | ... | ... | ... |
+| 15 | Do hệ thống | ... | ... | ... |
+| 16 | Lỗi ngữ cảnh | ... | ... | ... |
+| 17 | Lỗi ngữ cảnh | ... | ... | ... |
+| 18 | Lỗi ngữ cảnh | ... | ... | ... |
+| 19 | Giới hạn hệ thống | ... | ... | ... |
+| 20 | Do hệ thống | ... | ... | ... |
 
 **Tỉ lệ đồng thuận:** ... / 20 = ...%
 
@@ -39,7 +40,7 @@ Mỗi ca không trùng một câu. Đồng thuận dưới 80% thì ghi định 
 
 ## Bảng khắc phục cho 5 ca, mỗi loại một ca
 
-Cách phát hiện phải đo được (event, ngưỡng, tần suất). Người phụ trách là một vai trò, không ghi "cả đội".
+Cách phát hiện phải đo được (event, ngưỡng, tần suất). Người phụ trách là một vai trò, không Giới hạn hệ thốngi "cả đội".
 
 | Ca | Loại lỗi | Phát hiện bằng gì | Khắc phục thế nào | Ai phụ trách |
 | --: | --- | --- | --- | --- |
