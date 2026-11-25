@@ -3,7 +3,7 @@
 ## 1. Thông tin thành viên
 
 - Họ tên: Nguyễn Thanh Tùng
-- MSSV: 2A202503957
+- MSSV: 2A202603957
 - Email: thtung13102004@gmail.com
 - Vai trong nhóm: Người viết code (nửa đầu: CP1, CP2) / Rà soát kỹ thuật (nửa sau: CP4, CP5)
 
